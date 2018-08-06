@@ -1,0 +1,6 @@
+[user]
+	name = Uy Binh
+	email = uybinh@gmail.com
+
+[gpg]
+	program = gpg
