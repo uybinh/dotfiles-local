@@ -1,3 +1,4 @@
+# shell
 alias lsa="ls -ahl"
 
 # Heroku
@@ -5,3 +6,6 @@ alias phero="git push heroku master"
 
 # VS Code Insiders
 alias code="code-insiders"
+
+# ZSH
+alias zshconfig="code ~/.zshrc"

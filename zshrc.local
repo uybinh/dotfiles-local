@@ -41,7 +41,7 @@ ZSH_THEME="spaceship"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -94,11 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias lsa="ls -ahl"
-alias phero="git push heroku master"
-# alias gco="git checkout" # zsh have this alias by default
-alias gpush="git push"
-alias code="code-insiders"
 
 # Edit pipe less
 export LESS="-X -R"
@@ -121,5 +116,6 @@ eval "$(rbenv init -)"
 
 # include z
 . /usr/local/etc/profile.d/z.sh
+
 # added by travis gem
 [ -f /Users/uybinh/.travis/travis.sh ] && source /Users/uybinh/.travis/travis.sh
